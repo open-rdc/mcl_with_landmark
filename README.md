@@ -31,6 +31,8 @@ Press the power and camera buttons to start
 cd ~/catkin_ws/src/yolov5_pytorch_ros/docker
 docker-compose up -d
 docker exec -it yolo bash
+```
+```
 mkdir -p catkin_ws/src
 cd catkin_ws/src
 catkin_init_workspace
@@ -38,10 +40,8 @@ git clone https://github.com/open-rdc/yolov5_pytorch_ros
 cd ..
 catkin_make
 source ~/catkin_ws/devel/setup.bash
-roslaunch yolov5_pytorch_ros detector_action.launch
+roslaunch yolov5_pytorch_ros landmark_detector.launch
 ```
 
 ### Example
-7) Launch `navigation_with_yolo.launch`
-`roslaunch scenario_navigation navigation_with_yolo.launch`
-8) Select `/detections_image_topic/Image` to display the image on rviz
+7) Select `/detections_image_topic/Image` to display the image on rviz
