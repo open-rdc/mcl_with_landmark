@@ -5,8 +5,6 @@ theta_simple_stitching
 https://github.com/open-rdc/theta_simple_stitching  
 yolov5_pytorch_ros  
 https://github.com/open-rdc/yolov5_pytorch_ros  
-scenario_navigation  
-https://github.com/open-rdc/scenario_navigation  (for example)  
 emcl  
 https://github.com/open-rdc/emcl  
 
