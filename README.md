@@ -2,18 +2,23 @@
 
 ## Requirement
 theta_simple_stitching  
+branch: melodic-devel  
 https://github.com/open-rdc/theta_simple_stitching  
 
 yolov5_pytorch_ros  
-branch: detect_landmark
+branch: detect_landmark  
 https://github.com/open-rdc/yolov5_pytorch_ros  
 
 yolo_to_landmarks  
-branch: main
+branch: main  
 https://github.com/open-rdc/yolo_to_landmark  
 
+orne_navigation  
+branch: emcl_with_landmark
+
+
 emcl  
-branch: mcl_with_landmark
+branch: mcl_with_landmark  
 https://github.com/open-rdc/emcl  
 
 ## Execute
@@ -49,7 +54,11 @@ source ~/catkin_ws/devel/setup.bash
 roslaunch yolov5_pytorch_ros landmark_detector.launch
 ```
 
-
-
-### Example
 7) Select `/detections_image_topic/Image` to display the image on rviz
+
+8) rosrun yolo_to_landmark yolo_to_landmark.py
+
+### simulator
+9) roslaunch orne_bringup orne_alpha_sim.launch
+
+10) roslaunch orne_navigation_executor nav_static_map.launch emcl:=true
