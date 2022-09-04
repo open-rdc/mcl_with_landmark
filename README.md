@@ -56,9 +56,13 @@ roslaunch yolov5_pytorch_ros landmark_detector.launch
 
 7) Select `/detections_image_topic/Image` to display the image on rviz
 
-8) rosrun yolo_to_landmark yolo_to_landmark.py
+8) `rosrun yolo_to_landmark yolo_to_landmark.py`
 
-### simulator
-9) roslaunch orne_bringup orne_alpha_sim.launch
+### Simulator
+9) `roslaunch orne_bringup orne_alpha_sim.launch`
 
-10) roslaunch orne_navigation_executor nav_static_map.launch emcl:=true
+10) `roslaunch orne_navigation_executor nav_static_map.launch emcl:=true`
+
+rqt_graph
+
+![rosgraph](https://user-images.githubusercontent.com/5755200/188301311-da90b0bf-57b1-4b92-ae05-8186b2035a39.png)
