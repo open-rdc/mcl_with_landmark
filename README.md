@@ -13,13 +13,12 @@ yolo_to_landmarks
 branch: main  
 https://github.com/open-rdc/yolo_to_landmark  
 
-orne_navigation  
-branch: emcl_with_landmark
-
-
 emcl  
 branch: mcl_with_landmark  
 https://github.com/open-rdc/emcl  
+
+orne_navigation  
+branch: emcl_with_landmark  
 
 ## Execute
 for Ubuntu1804
