@@ -18,6 +18,7 @@ branch: mcl_with_landmark
 https://github.com/open-rdc/emcl  
 
 orne_navigation  
+https://github.com/open-rdc/orne_navigation  
 branch: emcl_with_landmark  
 
 ## Execute
