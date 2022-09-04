@@ -3,9 +3,17 @@
 ## Requirement
 theta_simple_stitching  
 https://github.com/open-rdc/theta_simple_stitching  
+
 yolov5_pytorch_ros  
+branch: detect_landmark
 https://github.com/open-rdc/yolov5_pytorch_ros  
+
+yolo_to_landmarks  
+branch: main
+https://github.com/open-rdc/yolo_to_landmark  
+
 emcl  
+branch: mcl_with_landmark
 https://github.com/open-rdc/emcl  
 
 ## Execute
@@ -40,6 +48,8 @@ catkin_make
 source ~/catkin_ws/devel/setup.bash
 roslaunch yolov5_pytorch_ros landmark_detector.launch
 ```
+
+
 
 ### Example
 7) Select `/detections_image_topic/Image` to display the image on rviz
