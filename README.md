@@ -22,7 +22,7 @@ https://github.com/open-rdc/orne_navigation
 branch: emcl_with_landmark  
 
 ## Execute
-for Ubuntu1804
+for Ubuntu18.04
 
 ### Execute roscore on docker
 1) `docker run -it --net host --name roscore ros:melodic`
